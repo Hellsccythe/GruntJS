@@ -1,0 +1,26 @@
+{
+  "name": "gruntjs",
+  "version": "1.0.0",
+  "description": "introdução ao Grunt",
+  "main": "index.js",
+  "scripts": {
+    "grunt": "grunt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hellsccythe/GruntJS.git"
+  },
+  "author": "Bruno Eduardo Oliveira Mendes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hellsccythe/GruntJS/issues"
+  },
+  "homepage": "https://github.com/Hellsccythe/GruntJS#readme",
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-concurrent": "^3.0.0",
+    "grunt-contrib-less": "^3.0.0",
+    "grunt-contrib-sass": "^2.0.0"
+  }
+}
