@@ -1,0 +1,49 @@
+@fontPrincipal: 'Roboto', 'sans-serif';
+@fontdoTitulo: 'Lobster', 'cursive';
+@cordoTexto: #fff;
+@cordeFundo: #eb3b5a;
+@cordotextodoBotao:#000;
+@cordofundodoBotao:#f7b731;
+
+body{
+    background-color: @cordeFundo;
+    font-family: @fontPrincipal;
+    color: @cordoTexto;
+}
+
+h1{
+    font-family: @fontdoTitulo;
+    font-size: 3em;
+}
+
+main{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 2em;
+    text-align: center;
+}
+
+button{
+    padding: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: 16px;
+    border-radius: 8px;
+    background-color: @cordofundodoBotao;
+    color: @cordotextodoBotao;
+    font-family: @fontPrincipal;
+}
+
+input{
+    display: block;
+    margin: 16px auto 0;
+    font-size: 2em;
+    max-width: 120px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    color: #fff;
+    border-bottom: 6px solid #fff;
+}
